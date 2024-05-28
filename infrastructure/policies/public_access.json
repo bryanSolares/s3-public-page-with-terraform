@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Id": "Policy1713798336678",
+  "Statement": [
+    {
+      "Sid": "AllowViewAccess",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3:::public-page-680b3713", "arn:aws:s3:::public-page-680b3713/*"]
+    }
+  ]
+}
